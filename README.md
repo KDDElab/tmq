@@ -72,8 +72,3 @@ Please also find the Ground-truth outlier interpretation annotations in folder `
 You may find that each dataset has three annotation files, please refer to the detailed annotation generation process in our submission.
 **How to generate the ground-truth annotations:**
 >  We employ eight different kinds of representative outlier detection methods (i.e., ensemble-based method iForest, probability-based method COPOD and ECOD, and proximity-based method HBOS and ROD, neural networks-based method SO_GAAL, graph-based method LUNAR, linear-based method MCD) to evaluate outlying degree of real outliers given every possible subspace. A good explanation for an outlier should be a high-contrast subspace that the outlier explicitly demonstrates its outlierness, and outlier detectors can easily and certainly predict it as an outlier in this subspace. Therefore, the ground-truth interpretation for each outlier is defined as the subspace that the outlier obtains the highest outlier score among all the possible subspaces.
-# TMQ_outlier_interpretation
-# TMQ_outlier_interpretation
-# tmq
-# tmq
-# tmq
