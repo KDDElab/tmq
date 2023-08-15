@@ -1,0 +1,1064 @@
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |           real_len           |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-15 17:17:58      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |           real_len           |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              5               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |           real_len           |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-15 17:18:24      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |           real_len           |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              5               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-16 12:02:11      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              5               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |             auto             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-18 11:12:06      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |             auto             |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              5               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |           real_len           |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-18 22:04:47      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |           real_len           |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+00_WPBC, [p r j aupr auroc], 0.6610, 0.6610, 0.5462, 0.7458, 0.7915, time, 44.01, coin
+00_WPBC, [p r j aupr auroc], 0.5968, 0.5968, 0.4778, 0.6716, 0.7412, time, 44.01, coin
+00_WPBC, [p r j aupr auroc], 0.6475, 0.6475, 0.5481, 0.6970, 0.7825, time, 44.01, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-19 17:12:58      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+00_WPBC, [p r j aupr auroc], 0.5582, 0.7601, 0.4698, 0.7458, 0.7915, time, 54.06, coin
+00_WPBC, [p r j aupr auroc], 0.4869, 0.6901, 0.4108, 0.6716, 0.7412, time, 54.06, coin
+00_WPBC, [p r j aupr auroc], 0.4598, 0.7397, 0.3871, 0.6970, 0.7825, time, 54.06, coin
+00_mnist, [p r j aupr auroc], 0.3743, 0.9764, 0.3674, 0.6470, 0.7539, time, 23832.90, coin
+00_mnist, [p r j aupr auroc], 0.4485, 0.9716, 0.4407, 0.6695, 0.7262, time, 23832.90, coin
+00_mnist, [p r j aupr auroc], 0.2729, 0.9877, 0.2699, 0.5934, 0.7820, time, 23832.90, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-22 12:01:18      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              4               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-22 12:02:04      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+00_Hepatitis, [p r j aupr auroc], 0.4885, 0.4945, 0.3288, 0.6149, 0.6581, time, 9.59, coin
+00_Hepatitis, [p r j aupr auroc], 0.3897, 0.4423, 0.2795, 0.3691, 0.5623, time, 9.59, coin
+00_Hepatitis, [p r j aupr auroc], 0.1885, 0.2949, 0.1436, 0.2485, 0.4791, time, 9.59, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 19:12:00      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 19:35:26      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+bupa, [p r j aupr auroc], 0.2685, 0.9779, 0.2678, 0.5104, 0.6124, time, 83.09, coin
+bupa, [p r j aupr auroc], 0.3857, 0.9997, 0.3857, 0.5750, 0.5645, time, 83.09, coin
+bupa, [p r j aupr auroc], 0.2185, 0.9986, 0.2185, 0.3301, 0.5041, time, 83.09, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |           real_len           |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 20:32:24      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |           real_len           |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+bupa, [p r j aupr auroc], 0.4003, 0.4003, 0.3477, 0.5104, 0.6124, time, 81.13, coin
+bupa, [p r j aupr auroc], 0.4875, 0.4875, 0.3814, 0.5750, 0.5645, time, 81.13, coin
+bupa, [p r j aupr auroc], 0.2189, 0.2189, 0.1906, 0.3301, 0.5041, time, 81.13, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-31 15:41:14      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+balance-scale, [p r j aupr auroc], 0.2791, 0.8194, 0.2764, 0.4925, 0.4945, time, 327.91, coin
+balance-scale, [p r j aupr auroc], 0.2698, 0.8573, 0.2698, 0.5575, 0.5772, time, 327.91, coin
+balance-scale, [p r j aupr auroc], 0.2497, 0.9172, 0.2497, 0.3049, 0.4362, time, 327.91, coin
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |             coin             |
+|   @ w2s_ratio    |              pn              |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2023-01-03 18:45:49      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |              pn              |
+|       runs       |              10              |
+|   record_name    |                              |
+|       AUG        |              10              |
+|    ratio_nbr     |             0.08             |
+| MIN_CLUSTER_SIZE |              2               |
+| MAX_NUM_CLUSTER  |              3               |
+|    VAL_TIMES     |              10              |
+|      C_SVM       |             1.0              |
+|       DEFK       |              0               |
+|     THRE_PS      |             0.85             |
++------------------+------------------------------+
+data_banknote_authentication, [p r j aupr auroc], 0.4768, 0.7903, 0.4477, 0.6343, 0.5575, time, 1538.77, coin
+data_banknote_authentication, [p r j aupr auroc], 0.4613, 0.7314, 0.3972, 0.5817, 0.4684, time, 1538.77, coin
+data_banknote_authentication, [p r j aupr auroc], 0.2955, 0.7694, 0.2850, 0.4362, 0.4921, time, 1538.77, coin
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:25:10   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.08          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:29:54   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.08          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:31:00   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.08          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:31:21   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.08          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:34:03   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.05          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:34:13   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.04          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:34:37   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |         0.045          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+------------------------+
+|    parameter     |         value          |
++------------------+------------------------+
+|      @ data      |       ['data/']        |
+| @ algorithm_name |          coin          |
+|   @ w2s_ratio    |           pn           |
+|      @ runs      |           10           |
+| @ od_eval_model  | ['sod', 'knn', 'abod'] |
+|   @ start_time   |  2023-04-11 17:39:40   |
+|       gpu        |          True          |
+|       eval       |          True          |
+|       path       |         data/          |
+|    w2s_ratio     |           pn           |
+|       runs       |           10           |
+|   record_name    |                        |
+|       AUG        |           10           |
+|    ratio_nbr     |          0.08          |
+| MIN_CLUSTER_SIZE |           2            |
+| MAX_NUM_CLUSTER  |           3            |
+|    VAL_TIMES     |           10           |
+|      C_SVM       |          1.0           |
+|       DEFK       |           0            |
+|     THRE_PS      |          0.85          |
++------------------+------------------------+
++------------------+--------------------------+
+|    parameter     |          value           |
++------------------+--------------------------+
+|      @ data      |        ['data/']         |
+| @ algorithm_name |           coin           |
+|   @ w2s_ratio    |            pn            |
+|      @ runs      |            10            |
+| @ od_eval_model  | ['sod', 'abod', 'cblof'] |
+|   @ start_time   |   2023-04-11 17:58:33    |
+|       gpu        |           True           |
+|       eval       |           True           |
+|       path       |          data/           |
+|    w2s_ratio     |            pn            |
+|       runs       |            10            |
+|   record_name    |                          |
+|       AUG        |            10            |
+|    ratio_nbr     |           0.08           |
+| MIN_CLUSTER_SIZE |            2             |
+| MAX_NUM_CLUSTER  |            3             |
+|    VAL_TIMES     |            10            |
+|      C_SVM       |           1.0            |
+|       DEFK       |            0             |
+|     THRE_PS      |           0.85           |
++------------------+--------------------------+
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |         coin        |
+|   @ w2s_ratio    |          pn         |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['sod']       |
+|   @ start_time   | 2023-04-23 13:33:58 |
+|       gpu        |         True        |
+|       eval       |         True        |
+|       path       |        data/        |
+|    w2s_ratio     |          pn         |
+|       runs       |          10         |
+|   record_name    |                     |
+|       AUG        |          10         |
+|    ratio_nbr     |         0.08        |
+| MIN_CLUSTER_SIZE |          2          |
+| MAX_NUM_CLUSTER  |          3          |
+|    VAL_TIMES     |          10         |
+|      C_SVM       |         1.0         |
+|       DEFK       |          0          |
+|     THRE_PS      |         0.85        |
++------------------+---------------------+
+synthetic_20, [p r j aupr auroc], 1.0000, 0.6900, 0.6900, 0.8915, 0.8450, time, 38.17, coin
+synthetic_22, [p r j aupr auroc], 0.9333, 0.9050, 0.8383, 0.9412, 0.9462, time, 38.16, coin
+synthetic_32, [p r j aupr auroc], 0.8483, 0.7650, 0.6700, 0.8539, 0.8684, time, 38.30, coin
+synthetic_36, [p r j aupr auroc], 1.0000, 0.9933, 0.9933, 0.9977, 0.9967, time, 39.02, coin
+synthetic_37, [p r j aupr auroc], 1.0000, 0.7533, 0.7533, 0.9137, 0.8767, time, 38.97, coin
+synthetic_38, [p r j aupr auroc], 1.0000, 0.7067, 0.7067, 0.8973, 0.8533, time, 38.98, coin
+synthetic_39, [p r j aupr auroc], 1.0000, 0.8667, 0.8667, 0.9533, 0.9333, time, 40.79, coin
+synthetic_45, [p r j aupr auroc], 1.0000, 0.7767, 0.7767, 0.9218, 0.8883, time, 52.28, coin
+synthetic_46, [p r j aupr auroc], 1.0000, 0.7667, 0.7667, 0.9183, 0.8833, time, 45.01, coin
+synthetic_47, [p r j aupr auroc], 1.0000, 0.7733, 0.7733, 0.9207, 0.8867, time, 37.72, coin
+synthetic_48, [p r j aupr auroc], 1.0000, 0.8967, 0.8967, 0.9638, 0.9483, time, 38.43, coin
+synthetic_49, [p r j aupr auroc], 1.0000, 0.8433, 0.8433, 0.9452, 0.9217, time, 40.49, coin
+synthetic_54, [p r j aupr auroc], 1.0000, 0.6825, 0.6825, 0.9047, 0.8413, time, 37.73, coin
+synthetic_56, [p r j aupr auroc], 1.0000, 0.7900, 0.7900, 0.9370, 0.8950, time, 37.88, coin
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |             coin            |
+|   @ w2s_ratio    |              pn             |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 16:53:17     |
+|       gpu        |             True            |
+|       eval       |             True            |
+|       path       |            data/            |
+|    w2s_ratio     |              pn             |
+|       runs       |              10             |
+|   record_name    |                             |
+|       AUG        |              10             |
+|    ratio_nbr     |             0.08            |
+| MIN_CLUSTER_SIZE |              2              |
+| MAX_NUM_CLUSTER  |              3              |
+|    VAL_TIMES     |              10             |
+|      C_SVM       |             1.0             |
+|       DEFK       |              0              |
+|     THRE_PS      |             0.85            |
++------------------+-----------------------------+
+01_WPBC, [p r j aupr auroc], 0.2305, 0.3901, 0.1738, 0.3344, 0.4904, time, 123.88, coin
+01_WPBC, [p r j aupr auroc], 0.2850, 0.3685, 0.1939, 0.3728, 0.4832, time, 123.88, coin
+01_WPBC, [p r j aupr auroc], 0.3889, 0.4128, 0.2564, 0.4537, 0.5070, time, 123.88, coin
+02-vertebral, [p r j aupr auroc], 0.3330, 0.9600, 0.3326, 0.4506, 0.5113, time, 152.55, coin
+02-vertebral, [p r j aupr auroc], 0.1966, 0.9967, 0.1966, 0.3977, 0.6228, time, 152.55, coin
+02-vertebral, [p r j aupr auroc], 0.3023, 0.9925, 0.2971, 0.2845, 0.3688, time, 152.55, coin
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |             coin            |
+|   @ w2s_ratio    |              pn             |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 21:41:53     |
+|       gpu        |             True            |
+|       eval       |             True            |
+|       path       |            data/            |
+|    w2s_ratio     |              pn             |
+|       runs       |              10             |
+|   record_name    |                             |
+|       AUG        |              10             |
+|    ratio_nbr     |             0.08            |
+| MIN_CLUSTER_SIZE |              2              |
+| MAX_NUM_CLUSTER  |              3              |
+|    VAL_TIMES     |              10             |
+|      C_SVM       |             1.0             |
+|       DEFK       |              0              |
+|     THRE_PS      |             0.85            |
++------------------+-----------------------------+
++------------------+-------------------------------------------+
+|    parameter     |                   value                   |
++------------------+-------------------------------------------+
+|      @ data      |                 ['data/']                 |
+| @ algorithm_name |                    coin                   |
+|   @ w2s_ratio    |                     pn                    |
+|      @ runs      |                     10                    |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod', 'mcd'] |
+|   @ start_time   |            2023-07-13 10:50:35            |
+|       gpu        |                    True                   |
+|       eval       |                    True                   |
+|       path       |                   data/                   |
+|    w2s_ratio     |                     pn                    |
+|       runs       |                     10                    |
+|   record_name    |                                           |
+|       AUG        |                     10                    |
+|    ratio_nbr     |                    0.08                   |
+| MIN_CLUSTER_SIZE |                     2                     |
+| MAX_NUM_CLUSTER  |                     3                     |
+|    VAL_TIMES     |                     10                    |
+|      C_SVM       |                    1.0                    |
+|       DEFK       |                     0                     |
+|     THRE_PS      |                    0.85                   |
++------------------+-------------------------------------------+
++------------------+-------------------------------------------+
+|    parameter     |                   value                   |
++------------------+-------------------------------------------+
+|      @ data      |                 ['data/']                 |
+| @ algorithm_name |                    coin                   |
+|   @ w2s_ratio    |                     pn                    |
+|      @ runs      |                     10                    |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod', 'mcd'] |
+|   @ start_time   |            2023-07-13 10:52:57            |
+|       gpu        |                    True                   |
+|       eval       |                    True                   |
+|       path       |                   data/                   |
+|    w2s_ratio     |                     pn                    |
+|       runs       |                     10                    |
+|   record_name    |                                           |
+|       AUG        |                     10                    |
+|    ratio_nbr     |                    0.08                   |
+| MIN_CLUSTER_SIZE |                     2                     |
+| MAX_NUM_CLUSTER  |                     3                     |
+|    VAL_TIMES     |                     10                    |
+|      C_SVM       |                    1.0                    |
+|       DEFK       |                     0                     |
+|     THRE_PS      |                    0.5                    |
++------------------+-------------------------------------------+
++------------------+-------------------------------------------+
+|    parameter     |                   value                   |
++------------------+-------------------------------------------+
+|      @ data      |                 ['data/']                 |
+| @ algorithm_name |                    coin                   |
+|   @ w2s_ratio    |                     pn                    |
+|      @ runs      |                     10                    |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod', 'mcd'] |
+|   @ start_time   |            2023-07-13 10:54:50            |
+|       gpu        |                    True                   |
+|       eval       |                    True                   |
+|       path       |                   data/                   |
+|    w2s_ratio     |                     pn                    |
+|       runs       |                     10                    |
+|   record_name    |                                           |
+|       AUG        |                     10                    |
+|    ratio_nbr     |                    0.08                   |
+| MIN_CLUSTER_SIZE |                     2                     |
+| MAX_NUM_CLUSTER  |                     3                     |
+|    VAL_TIMES     |                     10                    |
+|      C_SVM       |                    1.0                    |
+|       DEFK       |                     0                     |
+|     THRE_PS      |                    0.5                    |
++------------------+-------------------------------------------+
+01_WPBC, [p r j aupr auroc], 0.2368, 0.3905, 0.1745, 0.3270, 0.4829, time, 115.51, coin
+01_WPBC, [p r j aupr auroc], 0.2836, 0.3698, 0.1951, 0.3624, 0.4770, time, 115.51, coin
+01_WPBC, [p r j aupr auroc], 0.3812, 0.3988, 0.2482, 0.4545, 0.4980, time, 115.51, coin
+01_WPBC, [p r j aupr auroc], 0.3330, 0.3394, 0.2193, 0.4170, 0.4513, time, 115.51, coin
+01_WPBC, [p r j aupr auroc], 0.3324, 0.4673, 0.2369, 0.3882, 0.5337, time, 115.51, coin
+02-vertebral, [p r j aupr auroc], 0.3351, 0.9750, 0.3346, 0.4149, 0.5019, time, 144.35, coin
+02-vertebral, [p r j aupr auroc], 0.1966, 1.0000, 0.1966, 0.4696, 0.6874, time, 144.35, coin
+02-vertebral, [p r j aupr auroc], 0.3029, 0.9967, 0.3004, 0.2827, 0.3485, time, 144.35, coin
+02-vertebral, [p r j aupr auroc], 0.5780, 0.9733, 0.5740, 0.6688, 0.5097, time, 144.35, coin
+02-vertebral, [p r j aupr auroc], 0.4131, 0.9956, 0.4121, 0.4919, 0.4985, time, 144.35, coin
++------------------+-------------------------------------------+
+|    parameter     |                   value                   |
++------------------+-------------------------------------------+
+|      @ data      |                 ['data/']                 |
+| @ algorithm_name |                    coin                   |
+|   @ w2s_ratio    |                     pn                    |
+|      @ runs      |                     10                    |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod', 'mcd'] |
+|   @ start_time   |            2023-07-14 11:08:47            |
+|       gpu        |                    True                   |
+|       eval       |                    True                   |
+|       path       |                   data/                   |
+|    w2s_ratio     |                     pn                    |
+|       runs       |                     10                    |
+|   record_name    |                                           |
+|       AUG        |                     10                    |
+|    ratio_nbr     |                    0.08                   |
+| MIN_CLUSTER_SIZE |                     2                     |
+| MAX_NUM_CLUSTER  |                     3                     |
+|    VAL_TIMES     |                     10                    |
+|      C_SVM       |                    1.0                    |
+|       DEFK       |                     0                     |
+|     THRE_PS      |                    0.5                    |
++------------------+-------------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-14 14:54:35         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-14 16:00:54         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-14 16:31:48         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+-------------------------------------------+
+|    parameter     |                   value                   |
++------------------+-------------------------------------------+
+|      @ data      |                 ['data/']                 |
+| @ algorithm_name |                    coin                   |
+|   @ w2s_ratio    |                     pn                    |
+|      @ runs      |                     10                    |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod', 'mcd'] |
+|   @ start_time   |            2023-07-14 16:32:44            |
+|       gpu        |                    True                   |
+|       eval       |                    True                   |
+|       path       |                   data/                   |
+|    w2s_ratio     |                     pn                    |
+|       runs       |                     10                    |
+|   record_name    |                                           |
+|       AUG        |                     10                    |
+|    ratio_nbr     |                    0.08                   |
+| MIN_CLUSTER_SIZE |                     2                     |
+| MAX_NUM_CLUSTER  |                     3                     |
+|    VAL_TIMES     |                     10                    |
+|      C_SVM       |                    1.0                    |
+|       DEFK       |                     0                     |
+|     THRE_PS      |                    0.5                    |
++------------------+-------------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-15 16:16:07         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |         coin        |
+|   @ w2s_ratio    |          pn         |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['mcd']       |
+|   @ start_time   | 2023-07-15 18:10:57 |
+|       gpu        |         True        |
+|       eval       |         True        |
+|       path       |        data/        |
+|    w2s_ratio     |          pn         |
+|       runs       |          10         |
+|   record_name    |                     |
+|       AUG        |          10         |
+|    ratio_nbr     |         0.08        |
+| MIN_CLUSTER_SIZE |          2          |
+| MAX_NUM_CLUSTER  |          3          |
+|    VAL_TIMES     |          10         |
+|      C_SVM       |         1.0         |
+|       DEFK       |          0          |
+|     THRE_PS      |         0.5         |
++------------------+---------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-15 21:49:47         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-15 21:54:38         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+------------------------------------+
+|    parameter     |               value                |
++------------------+------------------------------------+
+|      @ data      |             ['data/']              |
+| @ algorithm_name |                coin                |
+|   @ w2s_ratio    |                 pn                 |
+|      @ runs      |                 10                 |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar', 'rod'] |
+|   @ start_time   |        2023-07-16 14:19:27         |
+|       gpu        |                True                |
+|       eval       |                True                |
+|       path       |               data/                |
+|    w2s_ratio     |                 pn                 |
+|       runs       |                 10                 |
+|   record_name    |                                    |
+|       AUG        |                 10                 |
+|    ratio_nbr     |                0.08                |
+| MIN_CLUSTER_SIZE |                 2                  |
+| MAX_NUM_CLUSTER  |                 3                  |
+|    VAL_TIMES     |                 10                 |
+|      C_SVM       |                1.0                 |
+|       DEFK       |                 0                  |
+|     THRE_PS      |                0.5                 |
++------------------+------------------------------------+
++------------------+------------------------------------------------------+
+|    parameter     |                        value                         |
++------------------+------------------------------------------------------+
+|      @ data      |                      ['data/']                       |
+| @ algorithm_name |                         coin                         |
+|   @ w2s_ratio    |                          pn                          |
+|      @ runs      |                          10                          |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos', 'ecod', 'lunar', 'rod'] |
+|   @ start_time   |                 2023-07-20 15:23:47                  |
+|       gpu        |                         True                         |
+|       eval       |                         True                         |
+|       path       |                        data/                         |
+|    w2s_ratio     |                          pn                          |
+|       runs       |                          10                          |
+|   record_name    |                                                      |
+|       AUG        |                          10                          |
+|    ratio_nbr     |                         0.08                         |
+| MIN_CLUSTER_SIZE |                          2                           |
+| MAX_NUM_CLUSTER  |                          3                           |
+|    VAL_TIMES     |                          10                          |
+|      C_SVM       |                         1.0                          |
+|       DEFK       |                          0                           |
+|     THRE_PS      |                         0.5                          |
++------------------+------------------------------------------------------+
++------------------+------------------------------------------------------+
+|    parameter     |                        value                         |
++------------------+------------------------------------------------------+
+|      @ data      |                      ['data/']                       |
+| @ algorithm_name |                         coin                         |
+|   @ w2s_ratio    |                          pn                          |
+|      @ runs      |                          10                          |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos', 'ecod', 'lunar', 'rod'] |
+|   @ start_time   |                 2023-07-20 15:26:32                  |
+|       gpu        |                         True                         |
+|       eval       |                         True                         |
+|       path       |                        data/                         |
+|    w2s_ratio     |                          pn                          |
+|       runs       |                          10                          |
+|   record_name    |                                                      |
+|       AUG        |                          10                          |
+|    ratio_nbr     |                         0.08                         |
+| MIN_CLUSTER_SIZE |                          2                           |
+| MAX_NUM_CLUSTER  |                          3                           |
+|    VAL_TIMES     |                          10                          |
+|      C_SVM       |                         1.0                          |
+|       DEFK       |                          0                           |
+|     THRE_PS      |                         0.5                          |
++------------------+------------------------------------------------------+
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |         coin        |
+|   @ w2s_ratio    |          pn         |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['mcd']       |
+|   @ start_time   | 2023-07-20 20:37:27 |
+|       gpu        |         True        |
+|       eval       |         True        |
+|       path       |        data/        |
+|    w2s_ratio     |          pn         |
+|       runs       |          10         |
+|   record_name    |                     |
+|       AUG        |          10         |
+|    ratio_nbr     |         0.08        |
+| MIN_CLUSTER_SIZE |          2          |
+| MAX_NUM_CLUSTER  |          3          |
+|    VAL_TIMES     |          10         |
+|      C_SVM       |         1.0         |
+|       DEFK       |          0          |
+|     THRE_PS      |         0.5         |
++------------------+---------------------+
+00-syn_32_4000, [p r j aupr auroc], 0.6310, 0.1607, 0.1471, 0.7764, 0.2852, time, 34.97, coin
+01-Syn_32_16000, [p r j aupr auroc], 1.0000, 0.2208, 0.2208, 0.9513, 0.6104, time, 1482.75, coin
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |         coin        |
+|   @ w2s_ratio    |          pn         |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['mcd']       |
+|   @ start_time   | 2023-07-27 16:01:08 |
+|       gpu        |         True        |
+|       eval       |         True        |
+|       path       |        data/        |
+|    w2s_ratio     |          pn         |
+|       runs       |          10         |
+|   record_name    |                     |
+|       AUG        |          10         |
+|    ratio_nbr     |         0.08        |
+| MIN_CLUSTER_SIZE |          2          |
+| MAX_NUM_CLUSTER  |          3          |
+|    VAL_TIMES     |          10         |
+|      C_SVM       |         1.0         |
+|       DEFK       |          0          |
+|     THRE_PS      |         0.5         |
++------------------+---------------------+

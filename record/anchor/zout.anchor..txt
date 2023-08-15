@@ -1,0 +1,134 @@
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            anchor            |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-17 15:21:41      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|      kernel      |             rbf              |
++------------------+------------------------------+
+24_mnist, od_eval, [p,r,j], 0.3615, 0.8696, 0.3371, time, 2337.17, anchor
+24_mnist, od_eval, [p,r,j], 0.4276, 0.8423, 0.3965, time, 2337.17, anchor
+24_mnist, od_eval, [p,r,j], 0.2734, 0.9121, 0.2610, time, 2337.17, anchor
+27_PageBlocks, od_eval, [p,r,j], 0.1790, 0.7871, 0.1702, time, 1518.73, anchor
+27_PageBlocks, od_eval, [p,r,j], 0.2099, 0.7194, 0.1921, time, 1518.73, anchor
+27_PageBlocks, od_eval, [p,r,j], 0.2143, 0.7963, 0.2034, time, 1518.73, anchor
+46_WPBC, od_eval, [p,r,j], 0.3241, 0.7481, 0.2926, time, 304.12, anchor
+46_WPBC, od_eval, [p,r,j], 0.2957, 0.7373, 0.2697, time, 304.12, anchor
+46_WPBC, od_eval, [p,r,j], 0.2686, 0.7388, 0.2469, time, 304.12, anchor
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            anchor            |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 15:44:12      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|      kernel      |             rbf              |
++------------------+------------------------------+
+bupa, od_eval, [p,r,j], 0.2638, 0.5151, 0.2282, time, 89.19, anchor
+bupa, od_eval, [p,r,j], 0.3932, 0.5464, 0.3121, time, 89.19, anchor
+bupa, od_eval, [p,r,j], 0.2234, 0.5641, 0.2095, time, 89.19, anchor
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            anchor            |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 16:14:13      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|      kernel      |             rbf              |
++------------------+------------------------------+
+bupa, od_eval, [p,r,j], 0.2338, 0.6462, 0.2159, time, 144.28, anchor
+bupa, od_eval, [p,r,j], 0.3534, 0.6850, 0.3082, time, 144.28, anchor
+bupa, od_eval, [p,r,j], 0.1726, 0.5850, 0.1643, time, 144.28, anchor
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            anchor           |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 18:16:31     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|      kernel      |             rbf             |
++------------------+-----------------------------+
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            anchor           |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 18:18:02     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|      kernel      |             rbf             |
++------------------+-----------------------------+
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            anchor           |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 19:25:51     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|      kernel      |             rbf             |
++------------------+-----------------------------+
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |        anchor       |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['mcd']       |
+|   @ start_time   | 2023-07-20 20:46:55 |
+|       path       |        data/        |
+|       runs       |          10         |
+|       eval       |         True        |
+|      kernel      |         rbf         |
++------------------+---------------------+
+00-syn_32_4000, od_eval, [p,r,j], 0.8745, 0.9830, 0.8615, time, 626.56, anchor
+01-Syn_32_16000, od_eval, [p,r,j], 0.9103, 0.6478, 0.6085, time, 809.46, anchor
++------------------+--------------------------+
+|    parameter     |          value           |
++------------------+--------------------------+
+|      @ data      |        ['data/']         |
+| @ algorithm_name |          anchor          |
+|      @ runs      |            10            |
+| @ od_eval_model  | ['ecod', 'lunar', 'rod'] |
+|   @ start_time   |   2023-07-21 15:17:05    |
+|       path       |          data/           |
+|       runs       |            10            |
+|       eval       |           True           |
+|      kernel      |           rbf            |
++------------------+--------------------------+
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |        anchor       |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['rod']       |
+|   @ start_time   | 2023-07-27 16:38:03 |
+|       path       |        data/        |
+|       runs       |          10         |
+|       eval       |         True        |
+|      kernel      |         rbf         |
++------------------+---------------------+

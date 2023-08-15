@@ -1,0 +1,23 @@
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |        aton_ablation2        |
+|   @ w2s_ratio    |             auto             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-30 19:51:01      |
+|       gpu        |             True             |
+|       eval       |             True             |
+|       path       |            data/             |
+|    w2s_ratio     |             auto             |
+|       runs       |              10              |
+|   record_name    |                              |
+|     nbrs_num     |              30              |
+|     rand_num     |              30              |
+|     n_epoch      |              10              |
+|    batch_size    |              64              |
+|        lr        |             0.1              |
+|     n_linear     |              64              |
+|      margin      |             5.0              |
++------------------+------------------------------+

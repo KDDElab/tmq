@@ -1,0 +1,234 @@
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            sinne             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-16 18:42:07      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|    max_level     |             full             |
+|      width       |              10              |
+|   ensemble_num   |             100              |
+|    sample_num    |              8               |
+|     pretrain     |            False             |
+|     verbose      |            False             |
++------------------+------------------------------+
+23_mammography, od_eval, [p,r,j], 0.5046, 0.8219, 0.4605, time, 84.95, sinne
+23_mammography, od_eval, [p,r,j], 0.5943, 0.5767, 0.3950, time, 84.95, sinne
+23_mammography, od_eval, [p,r,j], 0.4703, 0.6929, 0.3974, time, 84.95, sinne
+24_mnist, od_eval, [p,r,j], 0.6232, 0.7428, 0.4933, time, 987.49, sinne
+24_mnist, od_eval, [p,r,j], 0.6523, 0.6237, 0.4615, time, 987.49, sinne
+24_mnist, od_eval, [p,r,j], 0.4799, 0.8358, 0.4075, time, 987.49, sinne
+27_PageBlocks, od_eval, [p,r,j], 0.3367, 0.5996, 0.2944, time, 683.80, sinne
+27_PageBlocks, od_eval, [p,r,j], 0.3532, 0.4836, 0.2653, time, 683.80, sinne
+27_PageBlocks, od_eval, [p,r,j], 0.3266, 0.5130, 0.2611, time, 683.80, sinne
+46_WPBC, od_eval, [p,r,j], 0.5887, 0.6452, 0.4413, time, 311.71, sinne
+46_WPBC, od_eval, [p,r,j], 0.4825, 0.5694, 0.3498, time, 311.71, sinne
+46_WPBC, od_eval, [p,r,j], 0.4849, 0.6349, 0.3668, time, 311.71, sinne
+47_Hepatitis, od_eval, [p,r,j], 0.6033, 0.7446, 0.4644, time, 206.62, sinne
+47_Hepatitis, od_eval, [p,r,j], 0.4188, 0.5487, 0.3144, time, 206.62, sinne
+47_Hepatitis, od_eval, [p,r,j], 0.3206, 0.6994, 0.2946, time, 206.62, sinne
+49_fraud, od_eval, [p,r,j], 0.3276, 0.6052, 0.2870, time, 1057.40, sinne
+49_fraud, od_eval, [p,r,j], 0.4997, 0.5043, 0.3139, time, 1057.40, sinne
+49_fraud, od_eval, [p,r,j], 0.2955, 0.6665, 0.2667, time, 1057.40, sinne
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            sinne             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-11-17 10:18:13      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|    max_level     |             full             |
+|      width       |              10              |
+|   ensemble_num   |             100              |
+|    sample_num    |              8               |
+|     pretrain     |            False             |
+|     verbose      |            False             |
++------------------+------------------------------+
+01-vertebral, od_eval, [p,r,j], 0.4931, 0.6906, 0.4132, time, 22.74, sinne
+01-vertebral, od_eval, [p,r,j], 0.4962, 0.6589, 0.3953, time, 22.74, sinne
+01-vertebral, od_eval, [p,r,j], 0.2617, 0.5900, 0.2414, time, 22.74, sinne
+01_fault, od_eval, [p,r,j], 0.5421, 0.5287, 0.3570, time, 908.31, sinne
+01_fault, od_eval, [p,r,j], 0.5667, 0.5064, 0.3643, time, 908.31, sinne
+01_fault, od_eval, [p,r,j], 0.4375, 0.6380, 0.3295, time, 908.31, sinne
+02_yeast, od_eval, [p,r,j], 0.4493, 0.7629, 0.4025, time, 313.27, sinne
+02_yeast, od_eval, [p,r,j], 0.5167, 0.6208, 0.3905, time, 313.27, sinne
+02_yeast, od_eval, [p,r,j], 0.2680, 0.7017, 0.2590, time, 313.27, sinne
+14_glass, od_eval, [p,r,j], 0.2298, 0.2778, 0.1672, time, 39.93, sinne
+14_glass, od_eval, [p,r,j], 0.2359, 0.2370, 0.1465, time, 39.93, sinne
+14_glass, od_eval, [p,r,j], 0.1591, 0.2722, 0.1350, time, 39.93, sinne
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            sinne             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-27 16:46:09      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|    max_level     |             full             |
+|      width       |              10              |
+|   ensemble_num   |             100              |
+|    sample_num    |              8               |
+|     pretrain     |            False             |
+|     verbose      |            False             |
++------------------+------------------------------+
+bupa, od_eval, [p,r,j], 0.4794, 0.7449, 0.4337, time, 44.00, sinne
+bupa, od_eval, [p,r,j], 0.5244, 0.6340, 0.4077, time, 44.00, sinne
+bupa, od_eval, [p,r,j], 0.3117, 0.6363, 0.2831, time, 44.00, sinne
++------------------+------------------------------+
+|    parameter     |            value             |
++------------------+------------------------------+
+|      @ data      |          ['data/']           |
+| @ algorithm_name |            sinne             |
+|      @ runs      |              10              |
+| @ od_eval_model  | ['iforest', 'copod', 'hbos'] |
+|   @ start_time   |     2022-12-30 21:30:59      |
+|       path       |            data/             |
+|       runs       |              10              |
+|       eval       |             True             |
+|    max_level     |             full             |
+|      width       |              10              |
+|   ensemble_num   |             100              |
+|    sample_num    |              8               |
+|     pretrain     |            False             |
+|     verbose      |            False             |
++------------------+------------------------------+
+balance-scale, od_eval, [p,r,j], 0.3452, 0.7602, 0.3347, time, 23.84, sinne
+balance-scale, od_eval, [p,r,j], 0.3345, 0.8085, 0.3215, time, 23.84, sinne
+balance-scale, od_eval, [p,r,j], 0.2252, 0.6421, 0.2252, time, 23.84, sinne
++------------------+---------------------+
+|    parameter     |        value        |
++------------------+---------------------+
+|      @ data      |      ['data/']      |
+| @ algorithm_name |        sinne        |
+|      @ runs      |          10         |
+| @ od_eval_model  |       ['sod']       |
+|   @ start_time   | 2023-04-23 13:22:07 |
+|       path       |        data/        |
+|       runs       |          10         |
+|       eval       |         True        |
+|    max_level     |         full        |
+|      width       |          10         |
+|   ensemble_num   |         100         |
+|    sample_num    |          8          |
+|     pretrain     |        False        |
+|     verbose      |        False        |
++------------------+---------------------+
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            sinne            |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 18:14:14     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|    max_level     |             full            |
+|      width       |              10             |
+|   ensemble_num   |             100             |
+|    sample_num    |              8              |
+|     pretrain     |            False            |
+|     verbose      |            False            |
++------------------+-----------------------------+
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            sinne            |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 19:30:20     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|    max_level     |             full            |
+|      width       |              10             |
+|   ensemble_num   |             100             |
+|    sample_num    |              8              |
+|     pretrain     |            False            |
+|     verbose      |            False            |
++------------------+-----------------------------+
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            sinne            |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 19:39:53     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|    max_level     |             full            |
+|      width       |              10             |
+|   ensemble_num   |             100             |
+|    sample_num    |              8              |
+|     pretrain     |            False            |
+|     verbose      |            False            |
++------------------+-----------------------------+
+00_glass, od_eval, [p,r,j], 0.3861, 0.4926, 0.2670, time, 52.75, sinne
+00_glass, od_eval, [p,r,j], 0.3065, 0.7778, 0.3065, time, 52.75, sinne
+00_glass, od_eval, [p,r,j], 0.5046, 0.4633, 0.3259, time, 52.75, sinne
+01_WPBC, od_eval, [p,r,j], 0.5455, 0.7183, 0.4378, time, 406.22, sinne
+01_WPBC, od_eval, [p,r,j], 0.4049, 0.4769, 0.2723, time, 406.22, sinne
+01_WPBC, od_eval, [p,r,j], 0.5490, 0.5086, 0.3549, time, 406.22, sinne
+02-vertebral, od_eval, [p,r,j], 0.5437, 0.7314, 0.4502, time, 34.69, sinne
+02-vertebral, od_eval, [p,r,j], 0.1823, 0.4400, 0.1717, time, 34.69, sinne
+02-vertebral, od_eval, [p,r,j], 0.3305, 0.4482, 0.2606, time, 34.69, sinne
++------------------+-----------------------------+
+|    parameter     |            value            |
++------------------+-----------------------------+
+|      @ data      |          ['data/']          |
+| @ algorithm_name |            sinne            |
+|      @ runs      |              10             |
+| @ od_eval_model  | ['ecod', 'sogaal', 'lunar'] |
+|   @ start_time   |     2023-07-04 22:16:52     |
+|       path       |            data/            |
+|       runs       |              10             |
+|       eval       |             True            |
+|    max_level     |             full            |
+|      width       |              10             |
+|   ensemble_num   |             100             |
+|    sample_num    |              8              |
+|     pretrain     |            False            |
+|     verbose      |            False            |
++------------------+-----------------------------+
+00_glass, od_eval, [p,r,j], 0.4176, 0.5130, 0.2874, time, 63.29, sinne
+00_glass, od_eval, [p,r,j], 0.2969, 0.7222, 0.2969, time, 63.29, sinne
+00_glass, od_eval, [p,r,j], 0.5413, 0.4944, 0.3589, time, 63.29, sinne
+01_WPBC, od_eval, [p,r,j], 0.5448, 0.7102, 0.4352, time, 486.31, sinne
+01_WPBC, od_eval, [p,r,j], 0.4149, 0.4931, 0.2851, time, 486.31, sinne
+01_WPBC, od_eval, [p,r,j], 0.5561, 0.5126, 0.3589, time, 486.31, sinne
+02-vertebral, od_eval, [p,r,j], 0.5281, 0.7342, 0.4404, time, 41.06, sinne
+02-vertebral, od_eval, [p,r,j], 0.1492, 0.3883, 0.1415, time, 41.06, sinne
+02-vertebral, od_eval, [p,r,j], 0.3242, 0.4562, 0.2596, time, 41.06, sinne
++------------------+--------------------------+
+|    parameter     |          value           |
++------------------+--------------------------+
+|      @ data      |        ['data/']         |
+| @ algorithm_name |          sinne           |
+|      @ runs      |            10            |
+| @ od_eval_model  | ['ecod', 'lunar', 'rod'] |
+|   @ start_time   |   2023-07-21 12:54:16    |
+|       path       |          data/           |
+|       runs       |            10            |
+|       eval       |           True           |
+|    max_level     |           full           |
+|      width       |            10            |
+|   ensemble_num   |           100            |
+|    sample_num    |            8             |
+|     pretrain     |          False           |
+|     verbose      |          False           |
++------------------+--------------------------+

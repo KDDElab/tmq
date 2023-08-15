@@ -1,0 +1,282 @@
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:21:28      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:24:30      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:25:12      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:39:35      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:42:24      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-11-13 18:45:29      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
+01-vertebral, [p r j aupr auroc], 0.3878, 0.3878, 0.3234, 0.4641, 0.6433, time, 75.17, lime
+01-vertebral, [p r j aupr auroc], 0.5772, 0.5772, 0.5062, 0.5980, 0.6664, time, 75.17, lime
+01-vertebral, [p r j aupr auroc], 0.1650, 0.1650, 0.1644, 0.3128, 0.5170, time, 75.17, lime
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-12-27 21:12:52      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-12-27 21:22:30      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
+bupa, [p r j aupr auroc], 0.2276, 0.2276, 0.1861, 0.3447, 0.4364, time, 376.12, lime
+bupa, [p r j aupr auroc], 0.3144, 0.3144, 0.2294, 0.4257, 0.4149, time, 376.12, lime
+bupa, [p r j aupr auroc], 0.2703, 0.2703, 0.2421, 0.3778, 0.4781, time, 376.12, lime
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2022-12-30 21:39:35      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
+balance-scale, [p r j aupr auroc], 0.4760, 0.4760, 0.4542, 0.5738, 0.6263, time, 635.81, lime
+balance-scale, [p r j aupr auroc], 0.5712, 0.5712, 0.5617, 0.6601, 0.7140, time, 635.81, lime
+balance-scale, [p r j aupr auroc], 0.0736, 0.0736, 0.0736, 0.2290, 0.3408, time, 635.81, lime
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2023-01-04 13:56:11      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
++-----------------------+------------------------------+
+|       parameter       |            value             |
++-----------------------+------------------------------+
+|         @ data        |          ['data/']           |
+|    @ algorithm_name   |             lime             |
+|      @ w2s_ratio      |           real_len           |
+|         @ runs        |              10              |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos'] |
+|      @ start_time     |     2023-01-04 17:21:06      |
+|          gpu          |             True             |
+|          eval         |             True             |
+|          path         |            data/             |
+|       w2s_ratio       |           real_len           |
+|          runs         |              10              |
+|      record_name      |                              |
+| discretize_continuous |             True             |
+|      discretizer      |           quartile           |
++-----------------------+------------------------------+
+bupa, [p r j aupr auroc], 0.3815, 0.3815, 0.3207, 0.4844, 0.5633, time, 516.80, lime
+bupa, [p r j aupr auroc], 0.4542, 0.4542, 0.3507, 0.5467, 0.5425, time, 516.80, lime
+bupa, [p r j aupr auroc], 0.4769, 0.4769, 0.4454, 0.5629, 0.6435, time, 516.80, lime
++-----------------------+---------------------+
+|       parameter       |        value        |
++-----------------------+---------------------+
+|         @ data        |      ['data/']      |
+|    @ algorithm_name   |         lime        |
+|      @ w2s_ratio      |       real_len      |
+|         @ runs        |          10         |
+|    @ od_eval_model    |       ['sod']       |
+|      @ start_time     | 2023-04-23 20:53:15 |
+|          gpu          |         True        |
+|          eval         |         True        |
+|          path         |        data/        |
+|       w2s_ratio       |       real_len      |
+|          runs         |          10         |
+|      record_name      |                     |
+| discretize_continuous |         True        |
+|      discretizer      |       quartile      |
++-----------------------+---------------------+
++-----------------------+------------------------------------------------------+
+|       parameter       |                        value                         |
++-----------------------+------------------------------------------------------+
+|         @ data        |                      ['data/']                       |
+|    @ algorithm_name   |                         lime                         |
+|      @ w2s_ratio      |                       real_len                       |
+|         @ runs        |                          10                          |
+|    @ od_eval_model    | ['iforest', 'copod', 'hbos', 'ecod', 'lunar', 'rod'] |
+|      @ start_time     |                 2023-07-20 13:55:28                  |
+|          gpu          |                         True                         |
+|          eval         |                         True                         |
+|          path         |                        data/                         |
+|       w2s_ratio       |                       real_len                       |
+|          runs         |                          10                          |
+|      record_name      |                                                      |
+| discretize_continuous |                         True                         |
+|      discretizer      |                       quartile                       |
++-----------------------+------------------------------------------------------+
++-----------------------+---------------------+
+|       parameter       |        value        |
++-----------------------+---------------------+
+|         @ data        |      ['data/']      |
+|    @ algorithm_name   |         lime        |
+|      @ w2s_ratio      |       real_len      |
+|         @ runs        |          10         |
+|    @ od_eval_model    |       ['mcd']       |
+|      @ start_time     | 2023-07-21 10:40:55 |
+|          gpu          |         True        |
+|          eval         |         True        |
+|          path         |        data/        |
+|       w2s_ratio       |       real_len      |
+|          runs         |          10         |
+|      record_name      |                     |
+| discretize_continuous |         True        |
+|      discretizer      |       quartile      |
++-----------------------+---------------------+
++-----------------------+---------------------+
+|       parameter       |        value        |
++-----------------------+---------------------+
+|         @ data        |      ['data/']      |
+|    @ algorithm_name   |         lime        |
+|      @ w2s_ratio      |       real_len      |
+|         @ runs        |          10         |
+|    @ od_eval_model    |       ['mcd']       |
+|      @ start_time     | 2023-07-27 16:10:11 |
+|          gpu          |         True        |
+|          eval         |         True        |
+|          path         |        data/        |
+|       w2s_ratio       |       real_len      |
+|          runs         |          10         |
+|      record_name      |                     |
+| discretize_continuous |         True        |
+|      discretizer      |       quartile      |
++-----------------------+---------------------+
