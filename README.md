@@ -2,10 +2,12 @@
 
 Note that this task is also referred to as outlier explanation, outlier aspect mining/discovering, outlier property detection, and outlier description.
 
-### Seven Outlier Interpretation Methods
+
+### Seven Outlier Interpretation Methods (The source code of the proposed TMQ will be publicly available upon acceptance.)
 
 **This repository contains seven outlier interpretation methods: TMQ[1], ATON [2], COIN[3], SiNNE[4], SHAP[5], LIME[6], and Anchors [7].**
-[1] Effective Subspace Discovery by Transformer-Guided Multi-Task Quadruplet Learning Network for Outlier Interpretation
+
+[1] Optimizing Latent Space based on Transformer-Guided Quadruplet Network for Outlier Interpretation. 
 
 [2] Beyond Outlier Detection: Outlier Interpretation by Attention-Guided Triplet Deviation Network. In WWW. 2021.
 
