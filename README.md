@@ -88,5 +88,9 @@ You may find that each dataset has three annotation files, please refer to the d
 <img width="161" height="161" alt="losses_yeast" src="https://github.com/user-attachments/assets/0532cbeb-04b1-4ecb-ac2e-0a130208f822" />
 
 
+### Convergence Analysis
+We introduce an important Theorem to prove the convergence of TMQ.
+<img width="656" height="784" alt="d061d94c91a33700f790b81dda552d36" src="https://github.com/user-attachments/assets/9544d955-f759-40e2-8566-874092995156" />
+<img width="656" height="576" alt="c75d6dad3d09437a1c80a898812f9a7d" src="https://github.com/user-attachments/assets/e612493a-9cfc-4ff5-942d-713030b1365c" />
 
 
