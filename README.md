@@ -95,4 +95,10 @@ We introduce an important Theorem to prove the convergence of TMQ.
 <img width="656" height="784" alt="d061d94c91a33700f790b81dda552d36" src="https://github.com/user-attachments/assets/9544d955-f759-40e2-8566-874092995156" />
 <img width="656" height="576" alt="c75d6dad3d09437a1c80a898812f9a7d" src="https://github.com/user-attachments/assets/e612493a-9cfc-4ff5-942d-713030b1365c" />
 
+### JD's Dataset
+<img width="2376" height="134" alt="image" src="https://github.com/user-attachments/assets/f0283b7a-7a71-4080-ba89-26a7a43f8681" />
+
+<img width="2350" height="250" alt="image" src="https://github.com/user-attachments/assets/c086361d-8c3a-4d10-8ca6-083a34643f48" />
+
+
 
