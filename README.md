@@ -3,7 +3,7 @@
 Note that this task is also referred to as outlier explanation, outlier aspect mining/discovering, outlier property detection, and outlier description.
 
 
-### Seven Outlier Interpretation Methods (The source code of the proposed TMQ will be publicly available upon acceptance.)
+### Seven Outlier Interpretation Methods.
 
 **This repository contains seven outlier interpretation methods: TMQ[1], ATON [2], COIN[3], SiNNE[4], SHAP[5], LIME[6], and Anchors [7].**
 
