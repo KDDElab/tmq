@@ -74,3 +74,19 @@ Please also find the Ground-truth outlier interpretation annotations in folder `
 You may find that each dataset has three annotation files, please refer to the detailed annotation generation process in our submission.
 **How to generate the ground-truth annotations:**
 >  We employ eight different kinds of representative outlier detection methods (i.e., ensemble-based method iForest, probability-based method COPOD and ECOD, and proximity-based method HBOS and ROD, neural networks-based method SO_GAAL, graph-based method LUNAR, linear-based method MCD) to evaluate outlying degree of real outliers given every possible subspace. A good explanation for an outlier should be a high-contrast subspace that the outlier explicitly demonstrates its outlierness, and outlier detectors can easily and certainly predict it as an outlier in this subspace. Therefore, the ground-truth interpretation for each outlier is defined as the subspace that the outlier obtains the highest outlier score among all the possible subspaces.
+<img width="161" height="151" alt="losses_glass" src="https://github.com/user-attachments/assets/f62947f0-6e99-4b76-a704-1567b6e7b5e0" />
+<img width="161" height="161" alt="losses_ann" src="https://github.com/user-attachments/assets/7952a21e-1a62-49f2-841a-72c732b3eaef" />
+<img width="161" height="161" alt="losses_fault" src="https://github.com/user-attachments/assets/d3a72c33-0ddd-4a51-8e5e-2f2226129ead" />
+<img width="161" height="161" alt="losses_fraud" src="https://github.com/user-attachments/assets/2e3ea768-9220-4ce1-83a3-889f5f3eb967" />
+<img width="161" height="161" alt="losses_mamm" src="https://github.com/user-attachments/assets/1fa75765-a834-4470-9a81-b57a8c9f8af3" />
+<img width="161" height="161" alt="losses_mnist" src="https://github.com/user-attachments/assets/16f0ffa7-33da-4567-9169-06ebb37b4630" />
+<img width="161" height="161" alt="losses_page" src="https://github.com/user-attachments/assets/378c490b-c8c3-4bb4-848e-ff99879c8187" />
+<img width="161" height="161" alt="losses_satimage" src="https://github.com/user-attachments/assets/0af3a2cc-eb4c-4cf5-b38c-6525b9437f1b" />
+<img width="161" height="161" alt="losses_smtp" src="https://github.com/user-attachments/assets/870d5114-0767-403a-8951-50c452c1b817" />
+<img width="161" height="161" alt="losses_vertebral" src="https://github.com/user-attachments/assets/10efe3ea-5652-4b92-8653-60ab854b6639" />
+<img width="161" height="161" alt="losses_wpbc" src="https://github.com/user-attachments/assets/1da615c1-647a-42e0-a4c7-a3de3ac8d9d7" />
+<img width="161" height="161" alt="losses_yeast" src="https://github.com/user-attachments/assets/0532cbeb-04b1-4ecb-ac2e-0a130208f822" />
+
+
+
+
