@@ -74,7 +74,9 @@ Please also find the Ground-truth outlier interpretation annotations in folder `
 You may find that each dataset has three annotation files, please refer to the detailed annotation generation process in our submission.
 **How to generate the ground-truth annotations:**
 >  We employ eight different kinds of representative outlier detection methods (i.e., ensemble-based method iForest, probability-based method COPOD and ECOD, and proximity-based method HBOS and ROD, neural networks-based method SO_GAAL, graph-based method LUNAR, linear-based method MCD) to evaluate outlying degree of real outliers given every possible subspace. A good explanation for an outlier should be a high-contrast subspace that the outlier explicitly demonstrates its outlierness, and outlier detectors can easily and certainly predict it as an outlier in this subspace. Therefore, the ground-truth interpretation for each outlier is defined as the subspace that the outlier obtains the highest outlier score among all the possible subspaces.
-<img width="161" height="151" alt="losses_glass" src="https://github.com/user-attachments/assets/f62947f0-6e99-4b76-a704-1567b6e7b5e0" />
+
+### Loss curves for 12 real-world datasets
+<img width="161" height="135" alt="losses_glass" src="https://github.com/user-attachments/assets/f62947f0-6e99-4b76-a704-1567b6e7b5e0" />
 <img width="161" height="161" alt="losses_ann" src="https://github.com/user-attachments/assets/7952a21e-1a62-49f2-841a-72c732b3eaef" />
 <img width="161" height="161" alt="losses_fault" src="https://github.com/user-attachments/assets/d3a72c33-0ddd-4a51-8e5e-2f2226129ead" />
 <img width="161" height="161" alt="losses_fraud" src="https://github.com/user-attachments/assets/2e3ea768-9220-4ce1-83a3-889f5f3eb967" />
