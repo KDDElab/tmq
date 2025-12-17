@@ -3,54 +3,37 @@
 Note that this task is also referred to as outlier explanation, outlier aspect mining/discovering, outlier property detection, and outlier description.
 
 
-### Seven Outlier Interpretation Methods.
+### Eleven Outlier Interpretation Methods.
 
-**This repository contains seven outlier interpretation methods: TMQ[1], ATON [2], COIN[3], SiNNE[4], SHAP[5], LIME[6], and Anchors [7].**
+**This repository contains eleven outlier interpretation methods: TMQ[1], ATON [2], COIN[3], SiNNE[4], SHAP[5], LIME[6], Anchors [7], RAE-GA [8], PARs
+[9], PML[10], and WANDER [11].**
 
-[1] Optimizing Latent Space based on Transformer-Guided Quadruplet Network for Outlier Interpretation. 
+[1] Optimizing latent space based on Transformer-guided quadruplet network for outlier interpretation. 
 
-[2] Beyond Outlier Detection: Outlier Interpretation by Attention-Guided Triplet Deviation Network. In WWW. 2021.
+[2] Beyond outlier detection: outlier interpretation by attention-guided triplet deviation network. In WWW. 2021.
 
 [3] Contextual outlier interpretation. In IJCAI. 2018.
 
-[4] A New Dimensionality-Unbiased Score For Efficient and Effective Outlying Aspect Mining. In Data Science and Engineering. 2022.
+[4] A new dimensionality-unbiased score For efficient and effective outlying aspect mining. In Data Science and Engineering. 2022.
 
-[5] A unified approach to interpreting model predictions. In NeuraIPS. 2017
+[5] A unified approach to interpreting model predictions. In NeuraIPS. 2017.
 
 [6] "Why should I trust you?" Explaining the predictions of any classifier. In SIGKDD. 2016.
 
-[7] Anchors: High Precision Model-Agnostic Explanations. In AAAI. 2018.
+[7] Anchors: high precision model-agnostic explanations. In AAAI. 2018.
 
+[8] Outlier interpretation using regularized auto encoders and genetic algorithm. In CEC, 2024.
 
+[9] PARs: predicate-based association rules for efficient and accurate anomaly explanation. In CIKM, 2024.
 
-### Structure
-`data_od_evaluation`: Ground-truth outlier interpretation annotations of real-world datasets  
-`data`: real-world datasets in csv format, the last column is label indicating each line is an outlier or a inlier  
-`model_xx`: folders of TMQ and its contenders  
-`config.py`: configuration and default hyper-parameters  
-`main.py` main script to run the experiments
+[10] Perspective-based multi-task learning for outlier interpretation. In Dassfa, 2025.
 
-
-
-### How to use?
-##### 1. For TMQ' and competitor COIN, SHAP, and LIME, and ATON
-1. modify variant `algorithm_name` in `main.py` (support algorithm:`tmq`, `aton`, `coin`, `shap`, `lime`  in lowercase)
-2. use `python main.py --path data/ --runs 10 `
-3. the results can be found in `record/[algorithm_name]/` folder  
-
-##### 2. For TMQ and competitor ATON', COIN' 
-1. modify variant `algorithm_name` in `main.py` to `tmq`, `aton` or `coin`  
-2. use `python main.py --path data/ --w2s_ratio auto --runs 10` to run TMQ  
-   use `python main.py --path data/ --w2s_ratio pn --runs 10` to run ATON', COIN'  
-
-##### 3. For competitor SiNNE and Anchors
-1. modify variant `algorithm_name` in `main2.py` to `sinne` or `anchor`  
-please run `python main2.py --path data/ --runs 10` 
+[11] Weighted-digraphguided multi-kernelized learning for outlier explanation. In Information Fusion, 2025.
 
   
 
-### Requirements
-main packages of this project  
+### 1. Environment Setup & Dependency Installation
+To replicate our experimental environment, please install the required packages. We recommend using a Python virtual environment. 
 ```
 torch==1.3.0
 numpy==1.15.0
@@ -63,10 +46,61 @@ shap==0.35.0
 lime==0.2.0.1
 alibi==0.5.5
 ```
+You can install them via pip using the command:
+```
+pip install torch==1.3.0 numpy==1.15.0 pandas==0.25.2 scikit-learn==0.23.1 pyod==0.8.2 tqdm==4.48.2 prettytable==0.7.2 shap==0.35.0 lime==0.2.0.1 alibi==0.5.5
+```
 
+### 2. Data Preparation
+All datasets used in our experiments are located in the data/ folder. No additional preprocessing is required before running the main scripts.
 
+### 3. Reproducing Experiments
+The code supports multiple explanation algorithms. Follow the specific instructions for each group of methods.
 
-### Ground-truth annotations
+**3.1 For TMQ' and Competitors: COIN, SHAP, LIME, and ATON**
+(1) Open the main.py file.
+
+(2) Locate and modify the algorithm_name variable to one of the following supported values (in lowercase): tmq, aton, coin, shap, lime.
+
+(3) Run the experiment from the command line:
+      ```
+      python main.py --path data/ --runs 10
+      ```
+(4) Output: Results will be saved in the record/[algorithm_name]/ directory.
+
+**3.2 For TMQ and Competitors: ATON' and COIN'**
+1. In main.py, set the algorithm_name variable to tmq, aton, or coin.
+2. Use the appropriate command based on the algorithm:
+   For ATON' and TMQ:
+   ```
+   python main.py --path data/ --w2s_ratio auto --runs 10
+   ```
+   For COIN':
+   ```
+   python main.py --path data/ --w2s_ratio pn --runs 10
+   ```
+   The --w2s_ratio parameter controls the weighting strategy.
+   
+**3.3 For Competitors: SiNNE and Anchors**
+1. Open the main2.py file.
+2. Set the algorithm_name variable to sinne or anchor.
+3. Execute the following command:
+   ```
+   python main2.py --path data/ --runs 10
+   ```
+
+### 3. Key Hyperparameters & Configuration
+algorithm_name: The primary switch to select the explanation algorithm.
+
+--path: Path to the dataset folder.
+
+--runs: Number of experimental repetitions for robust result averaging.
+
+--w2s_ratio: A key parameter for TMQ, ATON', and COIN' (auto for TMQ, pn for ATON'/COIN').
+
+Most other hyperparameters have been set to the optimal values used in our paper and are configurable within the respective script files.
+
+### Ground-Truth Annotations for Evaluation
 
 Please also find the Ground-truth outlier interpretation annotations in folder `data_od_evaluation`.   
 *We expect these annotations can foster further possible reasearchs on this new practical probelm.*  
