@@ -89,7 +89,7 @@ The code supports multiple explanation algorithms. Follow the specific instructi
    python main2.py --path data/ --runs 10
    ```
 
-### 3. Key Hyperparameters & Configuration
+### 4. Key Hyperparameters & Configuration
 algorithm_name: The primary switch to select the explanation algorithm.
 
 --path: Path to the dataset folder.
@@ -100,7 +100,7 @@ algorithm_name: The primary switch to select the explanation algorithm.
 
 Most other hyperparameters have been set to the optimal values used in our paper and are configurable within the respective script files.
 
-### Ground-Truth Annotations for Evaluation
+### 5. Ground-Truth Annotations for Evaluation
 
 Please also find the Ground-truth outlier interpretation annotations in folder `data_od_evaluation`.   
 *We expect these annotations can foster further possible reasearchs on this new practical probelm.*  
